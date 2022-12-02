@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Ürünler"
+        android:id="@+id/bottombar_menu_home"
+        android:icon="@drawable/ic_home"/>
+    <item android:title="Arama Yap"
+        android:id="@+id/bottombar_menu_search"
+        android:icon="@drawable/ic_search"/>
+    <item android:title="Profil"
+        android:id="@+id/bottombar_menu_profile"
+        android:icon="@drawable/ic_profile"/>
+
+
+</menu>

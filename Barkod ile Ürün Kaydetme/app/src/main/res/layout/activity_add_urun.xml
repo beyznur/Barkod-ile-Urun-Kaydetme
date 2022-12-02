@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddUrun">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/scanBtn"
+                android:layout_width="240dp"
+                android:layout_height="120dp"
+                android:onClick="barkodOkuma"
+                android:text="BARKODU OKUTMAK İÇİN TIKLAYIN" />
+
+            <EditText
+                android:id="@+id/add_urun_activity_urunAdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Ürün adını giriniz" />
+
+            <EditText
+                android:id="@+id/add_urun_activity_urunGram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Ürün gramını giriniz" />
+
+            <EditText
+                android:id="@+id/add_urun_activity_urunSonKT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Ürünün SKT giriniz" />
+
+            <EditText
+                android:id="@+id/add_urun_activity_urunFiyati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Ürünün fiyatını giriniz" />
+
+            <EditText
+                android:id="@+id/add_urun_activity_urunKodu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Barkod okuyucu kullanın" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_urun_activity_kaydet"
+                android:layout_marginTop="20dp"
+                android:onClick="urunKaydet"
+                android:text="KAYDET" />
+
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</ScrollView>
